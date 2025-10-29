@@ -1,0 +1,21 @@
+{
+  "project_id": "your-project-id-here",
+  "credentials_path": "/path/to/your/credentials.json",
+  "output_directory": "./scans",
+  "scan_options": {
+    "enumerate_projects": true,
+    "enumerate_compute": true,
+    "enumerate_storage": true,
+    "enumerate_sql": true,
+    "enumerate_gke": true,
+    "enumerate_firewall": true,
+    "enumerate_iam": true
+  },
+  "regions": [
+    "us-central1",
+    "us-east1",
+    "us-west1",
+    "europe-west1",
+    "asia-east1"
+  ]
+}
